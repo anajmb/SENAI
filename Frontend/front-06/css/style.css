@@ -1,0 +1,22 @@
+body {
+    font-family: arial;
+    /*Flexbox*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+     margin: 0;
+    background: rebeccapurple;
+}
+
+.container {
+    text-align: center;
+    background: orangered;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+#time {
+    font-size: 48px;
+    font-weight: bold;
+}

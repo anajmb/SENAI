@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: rgb(63, 81, 119);
+}
+.container {
+    max-width: 350px;
+    border: 2px solid rgb(190, 190, 199);
+    border-radius: 8px;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+.container h1, h2 {
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 18px;
+    color: rgb(255, 255, 255);
+    padding: 10px;
+}
+ 
+.form-control {
+    padding: 10px;
+}
+ 
+.form-control label {
+    font-weight: bold;
+    font-size: 14px;
+    color: rgb(255, 255, 255);
+}
+ 
+.form-control input {
+    border: 2px solid green;
+    padding: 3px;
+    outline: none;
+}
+ 
+button {
+    margin: 10px;
+    background: rgb(141, 163, 12);
+    color: #fff;
+    padding: 5px;
+    cursor: pointer;
+}
