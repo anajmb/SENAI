@@ -1,0 +1,29 @@
+{
+  "news": [
+    {
+      "id": "1",
+      "nome": "Pedro Lima",
+      "email": "pedro_lima@hotmail.com"
+    },
+    {
+      "id": "2",
+      "nome": "Fernanda Lima",
+      "email": "fernanda_lima@hotmail.com"
+    },
+    {
+      "id": "3",
+      "nome": "Marcos Lima",
+      "email": "marcos_lima@hotmail.com"
+    },
+    {
+      "id": "4",
+      "nome": "Patricia Lima",
+      "email": "patricia_lima@hotmail.com"
+    },
+    {
+      "id": "53ad",
+      "nome": "Adriana",
+      "email": "adriana@hotmail.com"
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+body {
+    background: rgb(209, 181, 209);
+}
+h1 { 
+    text-align: center;
+    color: rgb(110, 5, 110);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+.container {
+    margin: 80px auto;
+    text-align: center; 
+    border: 2px solid rgb(79, 10, 79);
+    border-radius: 5px;
+    background: rgb(166, 166, 166);
+    max-width: 600px;
+    color: purple; 
+} 
+form {
+    /*FlexBox*/
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+}
+form.control input {
+    width: 100%; 
+    max-width: 250px;
+    outline: none; 
+    
+}
+button { 
+    height: 28px; /*Tamanho altura*/
+    background: rgb(165, 34, 165); /*Cor de fundo*/
+    cursor: pointer; /*Ponteiro*/
+    margin-left: 10px; /*Espaçamento*/
+    color: #fff; /*Cor do texto*/
+    outline: none; /*Tirar a borda dos campos e botões*/
+}
