@@ -1,0 +1,78 @@
+/* Resetando alguns estilos padrões */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Adicionando um pouco de estilo no body para centralizar o conteúdo */
+body {
+    background-color: #f4f4f4;
+
+}
+
+/* Estilo para o container */
+.container {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+
+/* Estilo para o header */
+header h1 {
+    text-align: center;
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Estilo para o formulário */
+form {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid rgb(222, 221, 221);
+    padding: 20px;
+    border-radius: 5px;
+}
+
+/* Estilo para os campos do formulário */
+.form-control {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-control label {
+    font-size: 1rem;
+    color: #555;
+    margin-bottom: 5px;
+}
+
+.form-control input {
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+    margin-bottom: 20px;
+}
+
+.form-control input:focus {
+    border-color: #007bff;
+}
+
+/* Estilo para o botão */
+.form-control button {
+    padding: 10px;
+    font-size: 1rem;
+    background-color: #ffd900;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.form-control button:hover {
+    background-color: #0056b3;
+}
