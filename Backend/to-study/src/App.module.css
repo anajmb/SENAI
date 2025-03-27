@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    min-height: 100vh;
+    background-color: #f5f5f5;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    flex-direction: column;
+}
+
+.paper {
+    background-color: rgb(214, 135, 188);
+    max-width: 32rem;
+    width: 100%;
+    border-radius: 8px;
+    position: relative;
+    overflow: hidden;
+}
+
