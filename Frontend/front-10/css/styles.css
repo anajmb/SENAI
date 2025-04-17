@@ -1,0 +1,22 @@
+/* Posts */
+#posts {
+    margin-top: 20px;
+}
+
+.post {
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+}
+
+.posts h2 {
+    margin: 0;
+    color: #555;
+}
+
+.posts p {
+    margin: 5px 0;
+    color: #777;
+}
